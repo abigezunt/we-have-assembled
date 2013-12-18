@@ -182,28 +182,26 @@ i.service-icon {
   padding: 50px 0;
 }
 
+
 .portrait {
+  position: relative;
+  height: 240px;
+  width: 360px;
+  margin: 0 auto;
   margin-bottom: 25px;
 }
 
-.cap-overlay {
-
+.portrait img {
+  position: absolute;
+  left: 0;
+  --webkit-transition: opacity 1s ease-in-out;
+  --moz-transition: opacity 1s ease-in-out;
+  --o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
-/*.portrait img {
-  z-index: 1;
-  max-height: 240px;
-  max-width: 360px;
-}
-
-.cap-overlay img {
-  z-index: 2;
-  max-height: 240px;
-  max-width: 360px;
-}*/
-
-.img-portfolio {
-  margin: 0 auto;
+.portrait img.serious:hover {
+  opacity: 0;
 }
 
 .profile {

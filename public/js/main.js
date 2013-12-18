@@ -15,10 +15,6 @@ $(document).ready(function() {
 
   });
 
-  $('.hcaption').hcaptions({
-    effect:"fade"
-  });
-
 
 
   var profile_divs=new Array("#emma-profile","#cori-profile","#abby-profile", "#amal-profile","#chris-profile","#ryan-profile","#rahul-profile","#dan-profile","#matt-profile","#ben-profile","#blake-profile","#bryce-profile","#bobby-profile","#mike-profile");
