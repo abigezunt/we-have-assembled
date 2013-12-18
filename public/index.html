@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio site for General Assembly's Web Development Immersive Boston Fall 2013 cohort, a group of 14 talented Ruby on Rails developers who spent 12 weeks in this intensive program.">
+    <meta name="author" content="Abby Howell">
+
+    <title>WDI Boston Fall 2013</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded|Pontano+Sans' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+   <div id="page">
+  
+    <!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+      <div class="vert-text">
+        <h2>General Assembly</h2>
+        <h1>Web Development Immersive</h1>
+        <h3>Boston Fall 2013</h3>
+      </div>
+    </div>
+    <!-- /Full Page Image Header Area -->
+
+    <div id="navbar" class="nav full_width"> <!-- Nav Bar -->
+      <ul id="navbar_in" class="clearfix">
+        <li><a href="#instructors">instructors</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#students">students</a></li>
+        <li><a href="#tech">skills</a></li>
+        <li><a href="#about">about</a></li>
+      </ul>
+  </div>
+
+
+  
+    <!-- Intro -->
+    <div id="about">
+    <div id="intro" class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h2>About Web Development Immersive</h2>
+            <p class="lead">WDI is General Assembly's Web Development Immersive Track. Fourteen students left their jobs and colleges to immerse themselves in learning web development all day, every day, plus homework every evening and weekend for twelve weeks.  This is what we've learned.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- /Intro -->
+  
+    <!-- Services -->
+    <div id="tech" class="tech services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>What we've learned</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-md-offset-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-rocket"></i>
+              <h4>Ruby on Rails</h4>
+              <p>We started with programming in pure Ruby, and progressed into building web sites with Sinatra and embedded Ruby, incorporating external APIs, and buiding beautiful, responsive web apps with Rails.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-magnet"></i>
+              <h4>JavaScript</h4>
+              <p>We've also learned to build websites on the client side, using JavaScript, jQuery, AJAX, d3.js, and AngularJS to build interactive and fast websites.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-shield"></i>
+              <h4>Open Source</h4>
+              <p>We built and published Ruby gems to help other Ruby programmers access APIs as our first big contributions to the open source community.</p>
+            </div>
+          </div>
+          <div class="col-md-2 text-center">
+            <div class="service-item">
+              <i class="service-icon fa fa-pencil"></i>
+              <h4>The Full Stack</h4>
+              <p>We've become talented full-stack developers, learning to use PostgreSQL, Heroku, and AWS, caching with Redis, load testing servers, serving static assets from cloud, and TDD with RSpec, Jasmine, Capybara, Webmock, and Factory Girl.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Services -->
+
+    <!-- Callout -->
+    <div class="callout">
+      <div class="vert-text">
+        <h1>Who are these nerds?</h1>
+      </div>
+    </div>
+    <!-- /Callout -->
+
+    <!-- Portfolio -->
+    <div id="students" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 text-center">
+            <h2>Meet the Developers</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="cori-portrait" >
+              <a href="#cori-bio" data-target="#cori-bio" cap-effect="fade" class="hcaption"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Cori Allen</h4>
+              <div id="cori-bio" class="cap-overlay">
+                <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="matt-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Matt Clement</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="ben-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Ben Winter</h4>
+            </div>
+          </div>
+        </div>
+        
+        <div class="profile-row row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="profile" id="cori-profile" >
+                <h1 class="left">Cori Allen</h1>
+                
+                <p>Before WDI, Cori was a real estate agent, a bodybuilder, and a film enthusiast.  Hailing from Kansas, Cori has a degree in business from Babson College, and loves dogs, movies, and making the world a better place.  She writes: "I'm a Kansas transplant in Boston building toward a full-stack junior developer position. After graduating from Babson College, I liked helping debug my employers’ websites over Skype with engineers in India, Indonesia, and Slovenia better than everything else at work. When I built my first "Hello world" HTML page, I was hooked. Three weeks later, I enrolled in General Assembly's Web Development Immersive programming bootcamp, fell in love with Ruby on Rails, and haven't looked back."</p>
+                <a href="https://github.com/callen6"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/plainpioneer"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/cori-allen/12/b5b/602"><img src="icons/linkedin-icon.png"></a>
+            </div>
+            <div class="profile" id="matt-profile" >
+                <h1>Matt Clement</h1>
+
+                <p>
+                    An avid rock climber, runner, and parkour-ist, Matt spent years as a project manager at a software company before deciding to learn to code.  Matt is a project manager with a technical background and QA lead experience seeking an opportunity to work on innovative, cutting-edge software projects. Passionate about technology and ways in which it can improve our lives, Matt is interested in contributing to a vision while getting his hands dirty in the code side of web development.
+                </p>
+
+                <a href="https://github.com/darkmoves"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/darkmoves"><img src="icons/twitter-icon.png"></a>
+                <a href="http://www.linkedin.com/pub/matt-clement/13/79a/966"><img src="icons/linkedin-icon.png"></a>
+            </div>
+            <div class="profile" id="ben-profile" >
+
+                <h1 class="right">Ben Winter</h1>
+
+
+                <p>
+                Cofounder of StudyHall.com, Ben is an entrepreneur and entrepreneur.  He enjoys long coding sessions near the beach, strategic candlelit meetings, and training his stable of white thoroughbreds.
+                </p>
+
+                <a href="https://github.com/bengwinter"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/winterbos"><img src="icons/twitter-icon.png"></a>
+                <a href="http://www.linkedin.com/in/bengwinter"><img src="icons/linkedin-icon.png"></a>
+            </div>
+          </div>
+        </div> <!-- END PROFILE ROW -->
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="rahul-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Rahul Hore</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="abby-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Abby Howell</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="bobby-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Bobby Mazzotti</h4>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="profile-row row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="profile" id="rahul-profile" >
+                <h1 class="left">Rahul Hore</h1>
+                <p>
+                With his BA in Math, Rahul loves solving problems and writing code.  A ten-year veteran of the retail industry, Rahul loves to hack on cryptography puzzles on the weekends.
+                </p>
+                <a href="https://github.com/O-I"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/TheAllBox"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/rahul-horé/14/511/a7"><img src="icons/linkedin-icon.png"></a>
+  
+            </div>
+            <div class="profile" id="abby-profile" >
+                <h1>Abby Howell</h1>
+                <a href="http://www.abbyhowell.org" class="personal_website">www.abbyhowell.org</a>
+                <p>
+                A former teacher of the Deaf, Abby loves learning languages, solving problems, and helping people.  In addition to her passion for computer programming, Abby is a Yiddishist, amateur acrobat, fiber artist, and rock climber.  Abby started learning to code while teaching Scratch to her middle school students, and after a few years of dabbling, she decided to quit teaching and study programming full time.
+                </p>
+                <a href="https://github.com/abigezunt"><img src="icons/github-icon.png"></a>
+                <a href="https://becomingaprogrammer.tumblr.com"><img src="icons/tumblr-icon.png"></a>
+                <a href="http://www.linkedin.com/in/abbyhowell"><img src="icons/linkedin-icon.png"></a>
+  
+            </div>
+            <div class="profile" id="bobby-profile" >
+                <h1 class="right">Bobby Mazzotti</h1>
+                <p>
+                Bobby has a degree in Computer Science and has spent the past 8 years working in IT.  He is a passionate and talented front-end designer and loves designing beautiful, functional, elegant websites.
+                </p>
+                <a href="www.linkedin.com/pub/bobby-mazzotti/a/294/23"><img src="icons/linkedin-icon.png"></a>
+                <a href="https://github.com/bmazzotti"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/rmazzotti"><img src="icons/twitter-icon.png"></a>
+  
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="blake-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Blake</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="bryce-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Bryce Lambert</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="dan-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Dan Crews</h4>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="profile-row row">
+          <div class="col-md-10 col-md-offset-1">
+       
+                  <div class="profile" id="blake-profile" >
+                    <h1 class="left">Blake Ruddock</h1>
+                    <p>
+                    Engineering/Product Intern at CO Everywhere in Boston. Tufts dropout. Graduate of Hotchkiss. Lover of all things water: swimming, sailing, kayaking, running on the beach. Family man, investor, chef, runner, sailor, swimmer. 
+                    </p>
+                    <a href="https://github.com/blakeruddock"><img src="icons/github-icon.png"></a>
+                    <a href="https://twitter.com/BlakeRuddock"><img src="icons/twitter-icon.png"></a>
+                    <a href="www.linkedin.com/in/blakeruddock"><img src="icons/linkedin-icon.png"></a>
+      
+                </div>
+   
+         
+                  <div class="profile" id="bryce-profile" >
+                    <h1>Bryce Lambert</h1>
+                    <a href="http://brycelambert.com/" class="personal_website">brycelambert.com</a>
+                    <p>
+                    Bryce loves building elegant Sinatra apps and digging into complex problems.  Before joining the course, Bryce managed a high-end cooking store.
+                    </p>
+                    <a href="https://github.com/brycelambert"><img src="icons/github-icon.png"></a>
+      
+                </div>
+ 
+                  <div class="profile" id="dan-profile" >
+                    <h1 class="right">Dan Crews</h1>
+                    <p>
+                     Creative product management professional with over 20 years experience leading teams to define and execute solid product innovation strategies and to identify, develop and deliver competitive products to the wireless and and internet telecommunications markets. Excellent planning and collaborative management skills.Takes pride in ability to effectively balance corporate strategies and operational goals with customer needs and desires. Strong interpersonal and communication skills, coupled with vision, sharp business acumen, and extensive technical background. Proven track record in innovation management, market/technology/competitive analysis, business development, requirements and life-cycle management, development execution, portfolio development/maintenance and technical marketing and sales.
+                    </p>
+                    <a href="https://github.com/dannycrews"><img src="icons/github-icon.png"></a>
+                    <a href="https://twitter.com/DannyCrews"><img src="icons/twitter-icon.png"></a>
+                    <a href="www.linkedin.com/in/danielcrews"><img src="icons/linkedin-icon.png"></a>
+                  </div>
+          
+          </div>
+       </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="chris-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Chris Sherlin</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="ryan-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Ryan Page</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="amal-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Amal Hussein</h4>
+          </div>
+        </div>
+
+
+        <div class="profile-row row">
+          <div class="col-md-10 col-md-offset-1">
+     
+              <div class="profile" id="chris-profile" >
+                <h1 class="left">Chris Sherlin</h1>
+                <p>
+                Chris is a front-end developer with a wicked sense of humor.  He loves Starbucks coffee and tiny dogs.
+                </p>
+                <a href="https://github.com/chrissherlin"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/chrissherlin"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/christopher-sherlin/64/4b2/70a"><img src="icons/linkedin-icon.png"></a>
+              </div>
+
+              <div class="profile" id="ryan-profile" >
+                <h1>Ryan Page</h1>
+                <p>Ryan is a graduate of Hopkinton High School and lives in Allston.  He loves Bollywood films, programming in Rails, and cooking with kale.</p>
+                <a href="https://github.com/ryanpah"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/ryachoo0"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/ryan-page/50/671/567"><img src="icons/linkedin-icon.png"></a>
+              </div>
+
+              <div class="profile" id="amal-profile" >
+                <h1 class="right">Amal Hussein</h1>
+                <p>
+                Amal joined WDI after completing her M.S. in Biochemistry.  A child of Somali diplomats, Amal grew up in Dubai and speaks French, Arabic, Somali, and English.
+                </p>
+                <a href="https://github.com/amalhussein"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/nomadtechie"><img src="icons/twitter-icon.png"></a>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="mike-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Mike Finneran</h4>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 text-center">
+            <div class="portrait" id="emma-portrait">
+              <a href="#"><img class="img-portfolio img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Emma Spencer</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-row row">
+          <div class="col-md-10 col-md-offset-1">
+       
+              <div class="profile" id="mike-profile" >
+                <h1 class="left">Mike Finneran</h1>
+                <p>
+                Mike loves to volunteer and contribute to the community.  He spends his weekends participating in hackathons and his days working on Rails apps that help people live better lives.  
+                </p>
+                <a href="https://github.com/micfin"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/finndiezel"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/michael-finneran/79/978/490"><img src="icons/linkedin-icon.png"></a>
+              </div>
+        
+    
+              <div class="profile" id="emma-profile" >
+                <h1>Emma Spencer</h1>
+                <a href="http://www.hiemma.com" class="personal_website">hiemma.com</a>
+                <p>
+                Emma has a degree in Archaeology from Columbia University and a passion for long-distance running.
+                </p>
+                <a href="https://github.com/enspencer"><img src="icons/github-icon.png"></a>
+                <a href="https://twitter.com/enspencer"><img src="icons/twitter-icon.png"></a>
+                <a href="www.linkedin.com/pub/emma-spencer/41/62a/28a"><img src="icons/linkedin-icon.png"></a>
+              </div>
+         </div>
+
+        </div> <!-- END PROFILE ROW -->
+
+      </div>
+    </div>
+    <!-- /Portfolio -->
+
+    <!-- Call to Action -->
+    <div class="call-to-action">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <h1>Check out these projects!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Call to Action -->
+
+    <div id="projects"><!-- Featured Projects -->
+      <div class="title" id="featured_projects_title">
+        <h1>Featured Projects</h1>
+        <h2>Only 12 weeks?  Impossible.</h2>
+        <p>We didn't just practice coding - we built interesting, beautiful, useful projects using Ruby on Rails and JavaScript.  Here is a sampling of the cool things we coded during our 12 weeks at WDI.</p>
+      </div>
+
+         <div><!-- PROJECTS -->
+        <div class="row clearfix">
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://ladyparts.herokuapp.com"><img src="http://www.placekitten.com/200/100" class="project_image">
+                <h3>LadyParts</h3>
+                <p class="project_description">Data visualization of the Bechdel test and visibility of women in films.</p>
+                <h4>By: Cori Allen and Emma Spencer</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://esh-circus-arts.herokuapp.com/">
+                <img src="http://www.placekitten.com/200/100" class="project_image">
+                <h3>Esh Circus Arts</h3>  
+                <p class="project_description">Software to help a local circus school handle class registrations, attendance tracking, credit card   payments, and calendar integration.</p>
+                <h4>By: Abby Howell</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://www.monroeapi.com/"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>Monroe</h3>  
+              <p class="project_description">An API that collects tweets and newspaper articles and provides real-time sentiment analysis about politicians.</p>
+              <h4>By: Blake Ruddock, Ben Winter, and Bryce Lambert</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row clearfix">
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="https://github.com/enspencer/rethinking_home"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>Rethinking Home</h3>
+              <p class="project_description">An app that collects and maps stories on how climate change affects the natural and human environment on a local scale.</p>
+              <h4>By: Emma Spencer</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="https://github.com/enspencer/nytimes-bestsellers"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>NY Times Bestsellers</h3>  
+              <p class="project_description">A Ruby gem for accessing the New York Times Best Sellers API that gathers data from the Best Sellers   List.</p>
+              <h4>By: Emma Spencer</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://github.com/abigezunt/RubyKhan"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>RubyKhan</h3>
+                <p class="project_description">A Ruby gem for accessing the Khan Academy API.</p>
+                <h4>By: Dan Crews and Abby Howell</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row clearfix">
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://evernote-converter.herokuapp.com/"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>Evernote to PDF</h3>
+                <p class="project_description">Convert your Evernote notebooks to PDFs using this practical, beautiful Sinatra app.</p>
+                <h4>By: Bryce Lambert</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://climbkeeper.herokuapp.com/"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>ClimbKeeper</h3>
+                <p class="project_description">Review indoor rock climbing routes</p>
+                <h4>By: Matt Clement</h4>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://netowns.herokuapp.com/"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>New England Town Name Generator</h3>
+                <p class="project_description">Wondering what to name your new settlement?  Get some suggestions with this hilarious app.</p>
+                <h4>By: Chris Sherlin</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row clearfix">
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://shielded-ravine-3169.herokuapp.com"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>Cat's Cuties</h3>
+                <p class="project_description">E-commerce for a local, handmade, organic, vegan, artisan chocolate company.</p>
+                <h4>By: Abby Howell</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://enviro-view.herokuapp.com"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>EnviroView</h3>
+                <p class="project_description">Visualizations of emissions data from the EPA and the Sunlight Foundation API.</p>
+                <h4>By: Dan Crews, Matt Clement, and Abby Howell</h4>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-4 ">
+            <div class="project_block" >
+              <a href="http://meandyoutube.herokuapp.com/"><img src="http://www.placekitten.com/200/100" class="project_image">
+              <h3>Me and YouTube</h3>
+                <p class="project_description">Watched anything good lately? See videos you and others are viewing.</p>
+                <h4>By: Cori Allen</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div id="instructors" ><!-- INSTRUCTORS -->
+            <div class="title">
+              <h1>Our Instructors</h1>
+              <h2>Learning from the best</h2>
+              <p class="pure-u-1">Every day, our instructors showed us through new, amazing, inspiring technologies, and supported us as we gnashed our teeth and banged our heads against our keyboards and fixed bug after bug.  Thanks to our instructors, we are now confidently debugging our own crazy projects, and we've learned strategies to teach ourselves just about anything.</p>
+            </div>
+            <div>
+              <img src="http://placekitten.com/820/150">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <h3>David Fisher</h3>
+                    <p>David is a Rails developer specializing in back end development and fine tuning server speeds.  A graduate of Berklee College of Music, David is also a wub-wub thump-thump DJ, a motorcycle enthusiast, and one of the cofounders of the Awesome Foundation.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Tom Dyer</h3>
+                    <p>Former leader of Boston Ruby Group, Tom is a passionate teacher and a great role model for our students. Tom writes incredible RSpec tests, and can explain anything in a way that makes it understandable.  Tom is a dedicated teacher and brilliant developer.</p>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <h3>Teddy Cleveland</h3>
+                    <p>Teddy is a graduate of WDI Summer 2013 in NYC.  An avid bicyclist and talented front end designer, Teddy stayed on as a TA for General Assembly this fall while continuing his studies in French and Computer Science at Tufts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 text-center">
+            <p>Built by <a href="http://www.abbyhowell.org">Abby Howell</a> at <a href="http://generalassemb.ly">General Assembly</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- /Footer -->
+
+  </div> <!-- /page -->
+
+    <!-- JavaScript -->
+
+    <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/jquery.hcaptions.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- Custom JavaScript for Smooth Scrolling -->
+
+    <script>
+      $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+            || location.hostname == this.hostname) {
+
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+            if (target.length) {
+              $('html,body').animate({
+                scrollTop: target.offset().top
+              }, 1000);
+              return false;
+            }
+          }
+        });
+      });
+    </script>
+
+  </body>
+
+</html>

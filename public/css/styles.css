@@ -1,0 +1,320 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: url(/img/wet_snow.png) repeat 0 0;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.vert-text h1 {
+  padding: 20px;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+
+h1, h2 {font-family: 'Stint Ultra Expanded', cursive;}
+
+h3, h4, h5, h6, div, p {font-family: 'Pontano Sans', sans-serif;}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*************
+* HEADER and NAVBAR  *
+*************/
+
+#top {padding-top: 50px;}
+
+#header_title {
+    background-color: rgba(24, 201, 188, 1.0000);
+}
+
+.full_width {
+  width: 100% !important;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+}
+
+#navbar {
+  background-color: #666;
+}
+
+#navbar_in {
+  padding: 0.625em;
+  margin: 0;
+}
+
+#navbar_in a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold
+}
+
+#navbar_in a:hover{
+  text-decoration: underline;
+}
+
+#navbar_in li {
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 0.2em;
+  display: inline-block;
+  float: right;
+  padding: 0px 0.55em 0px 0.4em;
+  background-color: transparent;
+  color: white;
+}
+
+.title {
+  margin:auto;
+  padding-top: 8em;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 650px;
+  width: 100%;
+  position: relative;
+  background: url(/img/pink_skyline.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Intro */
+
+.intro {
+  padding: 50px 0;
+}
+
+/* Services */
+
+.services {
+  background: rgba(64, 189, 30, 1.0000);
+  padding: 50px 0;
+  color: black;
+}
+
+.service-item {
+  margin-bottom: 15px;
+}
+
+i.service-icon {
+  border: 3px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* Callout */
+
+.callout {
+  color: rgba(255, 20, 131, 1.0000);
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(/img/callout.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.callout .vert-text {
+  color: #ff1569;
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding: 50px 0;
+}
+
+.portrait {
+  margin-bottom: 25px;
+}
+
+.cap-overlay {
+  background: rgba(33, 143, 154, 0.8);
+  overflow: scroll;
+}
+
+.img-portfolio {
+  margin: 0 auto;
+}
+
+.profile {
+  display: none;
+}
+
+.profile-row {
+  padding-bottom: 40px;
+}
+
+/*************
+* PROJECTS section *
+*************/
+
+#projects {  
+  max-width: 80em;
+  margin:auto;
+  text-align: center;
+}
+
+.project_description{
+  height: 140px;
+  margin: 0.5em 1.7em;
+  overflow: scroll;
+
+}
+
+.project_block {
+  display: inline-block;
+  text-align: center;
+  background: rgba(200, 200, 200, 0.4);
+  margin: 1em;
+  height: 25em;
+  width: 25em;
+}
+
+.project_block a {
+  text-decoration: none;
+  color: black;
+}
+
+.project_block a:hover {
+  text-decoration: none;
+  color: rgba(255, 20, 131, 1.0000);
+}
+
+.project_block a:visited {
+  text-decoration: none;
+  color: #888;
+}
+
+.project_block h3 {
+  margin:0;
+  text-align: center;
+}
+.project_block h4 {
+  text-transform: none;
+  font-size: 13px;
+  margin: 0 0.9em;
+  margin-left: 1.7em;
+}
+
+
+
+img.project_image {
+  max-width: 13.5em;
+  margin: 1em;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0.5px black;
+  margin-bottom: 0.5em;
+}
+
+/* Call to Action */
+
+.call-to-action {
+  color: #ffffff;
+  background: rgba(64, 189, 30, 1.0000);
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(/img/bg.jpg) no-repeat center center scroll; 
+  }
+
+  .callout {
+	background: url(/img/callout.jpg) no-repeat center center scroll; 
+  }
+
+  .map {
+	height: 75%;
+  }
+
+}
