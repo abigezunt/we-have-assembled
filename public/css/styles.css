@@ -187,7 +187,19 @@ i.service-icon {
 }
 
 .cap-overlay {
+
+}
+
+.portrait img {
   z-index: 1;
+  max-height: 240px;
+  max-width: 360px;
+}
+
+.cap-overlay img {
+  z-index: 2;
+  max-height: 240px;
+  max-width: 360px;
 }
 
 .img-portfolio {
