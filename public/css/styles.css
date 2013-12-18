@@ -190,7 +190,7 @@ i.service-icon {
 
 }
 
-.portrait img {
+/*.portrait img {
   z-index: 1;
   max-height: 240px;
   max-width: 360px;
@@ -200,7 +200,7 @@ i.service-icon {
   z-index: 2;
   max-height: 240px;
   max-width: 360px;
-}
+}*/
 
 .img-portfolio {
   margin: 0 auto;
